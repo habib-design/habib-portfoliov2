@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import { ArrowDown } from "lucide-react";
+import habibPc from "../assets/habib-pc.png";
 import {
   FaGithub,
   FaLinkedin,
@@ -89,7 +90,7 @@ function Hero() {
         {/* Hero image */}
         <motion.img
           className="hero-image"
-          src="/src/assets/habib-pc.png"
+          src={habibPc}
           alt="Habibul Haque holding a desktop PC"
           initial={{ opacity: 0, x: 30 }}
           animate={{ opacity: 1, x: 0 }}
